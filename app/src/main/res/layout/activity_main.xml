@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <com.fictivestudios.tafcha.Utils.Titlebar
+        android:id="@+id/main_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_5sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </com.fictivestudios.tafcha.Utils.Titlebar>
+
+    <!-- viewpager to show images -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+ <!--   <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabDots"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10sdp"
+        app:tabBackground="@drawable/tab_selector"
+        android:background="@color/full_transparent"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />-->
+
+
+
+<FrameLayout
+    android:id="@+id/main_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/_43sdp"
+    app:layout_constraintTop_toBottomOf="@id/main_title_bar"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+
+</FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

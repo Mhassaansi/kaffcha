@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tafcha</string>
+    <string name="app_id_fb">792923668611093</string>
+    <string name="facebook_client_token">fdeed6f4d178d7769e89525f7e2d4c45</string>
+
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="thank_you_your_challenge_has_been_sent">Merci, votre défi a été envoyé</string>
+    <string name="succesful_saved">Enregistrement réussi</string>
+
+
+    <string name="password_reset_successfull">Réinitialisation du mot de passe
+Réussi</string>
+
+    <string name="del">effacer</string>
+    <string name="signin_with_email">Se connecter avec un e-mail</string>
+    <string name="signin_with_facebook">Se connecter avec Facebook</string>
+    <string name="signin_with_google">Se connecter avec Google</string>
+    <string name="signin_with_apple">Se connecter avec Apple</string>
+    <string name="delaccount">Supprimer le compte</string>
+    <string name="agreedel">Êtes-vous d\'accord pour supprimer le compte</string>
+    <string name="lost">perdu</string>
+    <string name="intro_video">Vidéo d\'introduction</string>
+
+    <string name="client">Client</string>
+
+    <string name="client_list">Liste des clients</string>
+
+    <string name="users">UTILISATEURS</string>
+
+    <string name="select_user">SÉLECTIONNER L\'UTILISATEUR</string>
+    <string name="user">UTILISATEUR</string>
+    <string name="trainer">FORMATEUR</string>
+    <string name="pre_login">PRÉCONNEXION</string>
+
+    <string name="Please_accept_terms" tools:ignore="ExtraTranslation">Veuillez accepter les conditions &amp; politique d\'abord</string>
+
+    <string name="user_selct">Veuillez sélectionner au moins un utilisateur dans la liste donnée</string>
+    <string name="user_active">Utilisateur actif</string>
+
+    <string name="current">Actuel</string>
+
+    <string name="event_title">Titre de l\'événement</string>
+    <string name="invite_users">Inviter des utilisateurs</string>
+
+    <string name="date">Date</string>
+    <string name="users_who_attended">Utilisateurs qui ont participé</string>
+    <string name="create_new">Créer nouveau</string>
+    <string name="create">Créer</string>
+    <string name="update">Mettre à jour</string>
+    <string name="forget_password_link">Mot de passe oublié ?</string>
+    <string name="forget_password">Mot de passe oublié</string>
+    <string name="call_record">Enregistrement d\'appel</string>
+    <string name="login">Connexion</string>
+    <string name="get_code">Obtenir le code</string>
+    <string name="don_t_have_an_account">Vous n\'avez pas de compte ? S\'inscrire</string>
+    <string name="didnt_receive_code_Resend">Vous n\'avez pas reçu de code ? Renvoyer</string>
+    <string name="create_one">Créer un</string>
+    <string name="password">Mot de passe</string>
+    <string name="enter_old_pass">Entrez l\'ancien mot de passe</string>
+    <string name="enter_new_pass">Entrez le nouveau mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="dob">Date de naissance</string>
+    <string name="age">Âge</string>
+    <string name="wieght">Poids</string>
+    <string name="hieght">Hauteur</string>
+    <string name="goal">Objectif</string>
+
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="continue_">Continuer</string>
+    <string name="email">Courriel</string>
+    <string name="full_name">Nom complet</string>
+    <string name="email_address">Adresse e-mail</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="Edit_profile">MODIFIER LE PROFIL</string>
+    <string name="done">Terminé</string>
+    <string name="profile_setup">Configuration du profil</string>
+    <string name="update_trainer_profile">Mettre à jour le profil du formateur</string>
+
+    <string name="start_streaming">Démarrer la diffusion</string>
+    <string name="join_event">Rejoindre l\'événement</string>
+    <string name="term">J\'ai lu et j\'accepte les Conditions &amp; Conditions et politique de confidentialité</string>
+    <string name="resend_code">Renvoyer le code</string>
+    <string name="we_have_sent_you_an_email_containing">Nous vous avons envoyé un e-mail contenant</string>
+    <string name="verification_code">CODE DE VÉRIFICATION </string>
+    <string name="verification">VERIFICATION</string>
+    <string name="follow_the_instructions_to_verify_your_email_address">suivez les instructions pour vérifier votre adresse e-mail</string>
+    <string name="reset_password">RÉINITIALISER LE MOT DE PASSE</string>
+    <string name="update_password">MISE À JOUR DU MOT DE PASSE</string>
+    <string name="edit_profile">MODIFIER LE PROFIL</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="select">SELECT</string>
+    <string name="course">Cours</string>
+    <string name="select_course">Sélectionner un cours</string>
+    <string name="dashboard">TABLEAU DE BORD</string>
+    <string name="courses">COURS</string>
+    <string name="search">RECHERCHE</string>
+    <string name="forums">FORUMS</string>
+    <string name="certificates">CERTIFICATS</string>
+    <string name="payment">PAIEMENT</string>
+    <string name="change_password">MODIFIER LE MOT DE PASSE</string>
+    <string name="terms_amp_conditions"><![CDATA[TERMS & CONDITIONS]]></string>
+    <string name="privacy_policy">POLITIQUE DE CONFIDENTIALITÉ</string>
+    <string name="help_amp_feedback"><![CDATA[AIDE ET COMMENTAIRES]]></string>
+    <string name="logout">LOGOUT</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="app_id">AIzaSyBDQc1Qfa8vSvHI5by1Mhl_VFmZFeyNppU</string>
+    <string name="choice">Choix</string>
+    <string name="custom_error_password_not_equal">Le mot de passe ne correspond pas</string>
+    <string name="custom_error_password_change_pass_not_equal">Le mot de passe ne correspond pas au nouveau mot de passe</string>
+    <string name="invalidEmail">L\'adresse e-mail est obligatoire</string>
+    <string name="invalidName">Le nom est obligatoire</string>
+    <string name="invalidPhone">Le numéro de téléphone est obligatoire</string>
+    <string name="invalidPass">Le mot de passe est requis</string>
+    <string name="regexErrorMessage">Mot de passe invalide. La longueur minimale du mot de passe doit être de 8 caractères</string>
+
+
+    <string name="reward_points_won">50 points de récompense gagnés !</string>
+
+    <string name="congratulations">Félicitations</string>
+    <string name="challenge_lost">Défi perdu</string>
+    <string name="congrats_your_acc..">Félicitations, votre compte a Inscription réussie</string>
+    <string name="challenge_by_dennis">Challenge de Dennis Ellis gagné !!!Temps d\'exécution 1:31 min</string>
+
+
+    <string name="home">Accueil</string>
+
+    <string name="notes">Remarques</string>
+    <string name="add_notes">Ajouter des notes</string>
+    <string name="agreement">Accord</string>
+    <string name="challenge_description_">Description du défi</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="notification">Notification</string>
+    <string name="about_us">À propos de nous</string>
+    <string name="password_reset">Réinitialisation du mot de passe</string>
+
+
+    <string name="challenged_won">Défi gagné !</string>
+    <string name="challenges_to_you">Défi pour vous</string>
+    <string name="reward_50_points">Récompense 50 points</string>
+
+    <string name="live_stream">Diffusion en direct</string>
+
+    <string name="live">En direct</string>
+    <string name="event_name">Nom de l\'événement</string>
+
+    <string name="events">Événements</string>
+    <string name="events_details">Détails des événements</string>
+    <string name="request_received">Demande reçue</string>
+    <string name="previous_challenges">Défis précédents</string>
+
+    <string name="last">Nom</string>
+    <string name="draw">Dessiner</string>
+
+    <string name="friend_time">Le temps d\'un ami</string>
+    <string name="challenge_a_friend">Défier un ami</string>
+    <string name="challenge_friend">Défier un ami</string>
+    <string name="reject_challenge_friend">Rejeter le défi</string>
+    <string name="stop">Arrêter</string>
+    <string name="start">Démarrer</string>
+    <string name="time">Heure</string>
+    <string name="exercise">Exercice</string>
+    <string name="history">Historique</string>
+    <string name="see_all">Voir tout</string>
+
+    <string name="view_all">Afficher tout</string>
+
+
+    <string name="type_here">Tapez ici...</string>
+    <string name="see_more">En savoir plus</string>
+    <string name="accept">Accepter</string>
+    <string name="reject">Rejeter</string>
+    <string name="i_have_read..">J\'ai lu et j\'accepte</string>
+    <string name="challenges">Défis</string>
+
+    <string name="fields_cant_be_empty">Les champs ne peuvent pas être vides</string>
+    <string name="image_cant_be_empty">L\'image ne peut pas être vide</string>
+    <string name="video_cant_be_empty">La vidéo ne peut pas être vide</string>
+    <string name="invalid_email_format">Format d\'e-mail non valide</string>
+    <string name="password_must_be">Le mot de passe doit comporter 8 caractères</string>
+    <string name="confirm_pass_doesnt_match">Confirmer que le mot de passe ne correspond pas</string>
+    <string name="new_and_old_pass_must">le nouveau et l\'ancien mot de passe ne doivent pas être identiques</string>
+
+
+    <string name="training">FORMATION</string>
+    <string name="challenge">DÉFI</string>
+    <string name="leader_board">CLASSEMENT</string>
+    <string name="calendar">CALENDRIER</string>
+    <string name="challenge_feed">FLUX DE DÉFIS</string>
+    <string name="settings">PARAMETRES</string>
+
+    <string name="reminder">Rappel</string>
+
+
+    <string name="your_event_has_been_created">Votre événement a
+été créé</string>
+
+    <string name="earn_rewards_points_to..">Gagnez des points de récompense pour
+participer au tirage au sort</string>
+    <string name="points">Points</string>
+
+    <string name="friends_request">DEMANDE D\'AMIS</string>
+
+
+    <string name="experience">Expérience</string>
+    <string name="result">Résultat</string>
+    <string name="pending">En attente</string>
+    <string name="sent">Envoyé</string>
+    <string name="received">Reçu</string>
+    <string name="send_request">Envoyer la demande</string>
+
+    <string name="decline">Refuser</string>
+    <string name="request">Demande</string>
+    <string name="search_">Rechercher</string>
+    <string name="add_friends">Ajouter des amis</string>
+    <string name="invite_friend">Inviter un ami</string>
+
+    <string name="reward">Récompense</string>
+
+    <string name="profile">Profil</string>
+
+
+    <string name="inProgress">En cours</string>
+    <string name="play_video">Lire la vidéo</string>
+    <string name="upload_video">Télécharger la vidéo</string>
+    <string name="update_video">Mettre à jour la vidéo</string>
+
+    <string name="feed">Flux</string>
+    <string name="my_challenges">Mes défis</string>
+    <string name="internetconnection">Pas de connexion Internet</string>
+
+    <string name="training_description">Afficher les plans d\'entraînement pour vos entraînements.</string>
+    <string name="challenge_description">Défiez vos amis avec des compétitions
+exercices et voyez qui gagne.</string>
+    <string name="trainers_description">Connectez-vous à des formateurs hautement qualifiés pour voirils s\'entraînent et reçoivent des conseils.</string>
+    <string name="friends_description">Connectez-vous à vos amis pour partager votre
+progresser et voir les leurs.</string>
+    <string name="leader_board_description">Montez dans le classement pour
+gagnez un vélo Peloton.</string>
+    <string name="calendar_description">Planifiez vos entraînements pour une meilleure cohérence.</string>
+    <string name="challenge_feed_description">Voir qui a défié qui et noter quil\'a fait le mieux.</string>
+    <string name="rewards_description">Gérez vos points et voyez où vous en êtes.</string>
+
+
+    <!--lo
+    <string name="regexErrorMessage">Mot de passe invalide. Le mot de passe doit comporter huit caractères et contenir une majuscule, une minuscule et un chiffre</string>
+    -->
+    <string name="mark_as_completed">Marquer comme terminé</string>
+
+
+    //langues
+
+    <string name="english">Anglais</string>
+    <string name="please_accept_terms">veuillez accepter les conditions</string>
+    <string name="biography">Biographie</string>
+    <string name="and_instructions_please">Et instructions.Veuillez</string>
+    <string name="Bio">Bio</string>
+    <string name="Confirm_password">Confirmez le mot de passe</string>
+    <string name="rewards">RÉCOMPENSES</string>
+    <string name="trainers">FORMATEURS</string>
+    <string name="friends">COPAINS</string>
+    <string name="Accept">A gagné</string>
+    <string name="فchallenge_friend">Défi ami</string>
+    <string name="won">A gagné</string>
+
+</resources>

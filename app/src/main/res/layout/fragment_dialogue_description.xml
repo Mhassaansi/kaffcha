@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparentBlack"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dialogFragments.DialogueDescriptionFragment">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_19sdp"
+
+        android:background="@drawable/rounded_white_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/rounded_half_pink"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/tv_agreement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge_description_"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginHorizontal="@dimen/_18sdp"
+            app:layout_constraintTop_toTopOf="@id/view"
+            >
+
+        </TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/view"
+            android:padding="@dimen/_10sdp"
+            >
+
+
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_180sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rounded_mild_white_bg"
+
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="start"
+                android:hint="@string/type_here"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="26dp">
+
+            </EditText>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textStyleWhite"
+                android:text="@string/done"
+                android:layout_marginHorizontal="@dimen/_16ssp"
+                android:background="@drawable/btn_round_pink"
+                android:layout_marginTop="@dimen/_22sdp"
+                app:layout_constraintTop_toBottomOf="@id/et_description"
+
+                >
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,210 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.fictivestudios.tafcha"
+        minSdk 23
+        targetSdk 32
+        versionCode 2
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            // config you want to support device
+            //abiFilters 'armeabi-v7a', 'arm64-v8a', 'armeabi', 'x86', 'x86_64'
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
+
+        packagingOptions {
+            exclude "lib/x86/*.so"
+        }
+
+    }
+//    packagingOptions {
+//        pickFirst "META-INF/MANIFEST.MF"
+//        // exclude "META-INF/MANIFEST.MF"
+//    }
+
+
+        bundle {
+            language {
+                // Specifies that the app bundle should not support
+                // configuration APKs for language resources. These
+                // resources are instead packaged with each base and
+                // dynamic feature APK.
+                enableSplit = false
+            }
+        }
+
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+//    packagingOptions {
+//        pickFirst 'META-INF/AL2.0'
+//        pickFirst 'META-INF/LGPL2.1'
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        //noinspection DataBindingWithoutKapt
+        dataBinding = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    useLibrary  'org.apache.http.legacy'
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+
+
+    repositories {
+//        mavenCentral()
+//        flatDir {
+//            dirs 'libs'
+//        }
+//        maven { url "https://jitpack.io" }
+    }
+
+//    packagingOptions {
+//        pickFirst   '**'
+//    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.test:core-ktx:1.4.0'
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.0'
+    implementation files('libs\\red5streaming.jar')
+    implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    //kotlin language
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
+    //dimens
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //otp view
+    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.1.2'
+
+    //circular progressbar
+    implementation 'com.mikhaellopez:circularprogressbar:3.1.0'
+
+    //seekbar
+    implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+
+    //slideview
+    implementation 'com.chabbal:slidingdotsplash:1.0.2'
+
+
+    //circle imageview
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //expandable layout
+    implementation 'com.ms-square:expandableTextView:0.1.4'
+
+    //rounded horizontal progressbar
+    implementation 'com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1'
+
+    //image picker
+    implementation 'com.github.dhaval2404:imagepicker-support:1.7.1'
+
+
+    //retrofit
+    implementation "com.squareup.retrofit2:retrofit:$RETROFIT"
+    implementation "com.squareup.retrofit2:converter-gson:$GSON"
+    implementation "com.squareup.okhttp3:okhttp:$OK_HTTP"
+    implementation "com.squareup.okhttp3:logging-interceptor:$OK_HTTP_INTERCEPTER"
+
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+    // Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$COROUTINES"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$COROUTINES"
+
+    //Kotlin CoRoutines
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$COROUTINES_ADAPTER"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$JET_BRAIN_COROUTINES"
+
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.2')
+    implementation ("com.google.firebase:firebase-messaging-directboot:23.0.5")
+    implementation ("com.google.firebase:firebase-analytics-ktx")
+    implementation ("com.google.firebase:firebase-messaging-ktx")
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+
+
+   // implementation project(path: ':facebookloginsdk')
+
+    implementation 'com.karumi:dexter:6.2.3'
+
+
+    //Red 5 Pro dependencies
+    implementation 'org.java-websocket:Java-WebSocket:1.5.2'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'ch.qos.logback:logback-core:1.2.3'
+    implementation 'org.apache.mina:mina-core:2.1.3'
+    implementation 'org.slf4j:slf4j-api:1.7.30'
+    implementation 'com.googlecode.mp4parser:isoparser:1.1.22'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+
+
+    implementation group: 'com.github.seratch', name: 'java-time-backport', version: '1.0.0'
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.0.3'
+
+   //Dexter Permission
+        implementation 'com.karumi:dexter:6.2.3'
+
+
+    implementation "androidx.multidex:multidex:$multidex_version"
+
+    //facebook
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'
+

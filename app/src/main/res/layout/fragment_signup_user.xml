@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SignupUserFragment">
+
+
+
+    <TextView
+        android:id="@+id/tv_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:layout_marginTop="@dimen/_20sdp"
+        style="@style/textStyleWhiteTitleBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_back_arrow"
+        android:layout_marginLeft="@dimen/_20sdp"
+        app:layout_constraintTop_toTopOf="@id/tv_tittle"
+        app:layout_constraintBottom_toBottomOf="@id/tv_tittle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageButton>
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/tv_tittle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/user_blank_profile"
+                android:layout_marginTop="@dimen/_25sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginBottom="80dp"
+                android:paddingHorizontal="@dimen/_35sdp"
+
+                app:layout_constraintTop_toBottomOf="@+id/imgLogo">
+
+
+                <EditText
+                    android:id="@+id/et_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/full_name"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:textColorHint="@color/color_gray"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:paddingVertical="@dimen/_12sdp"
+                    style="@style/textStyleEditText"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:drawableLeft="@drawable/user_name_icon"
+                    android:background="@drawable/rounded_stroke"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:drawableStart="@drawable/user_name_icon"
+                    android:paddingStart="@dimen/_20sdp">
+
+                </EditText>
+
+
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/layout_dob_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintTop_toBottomOf="@id/et_full_name"
+                    tools:layout_editor_absoluteX="45dp">
+
+                    <EditText
+                        android:id="@+id/et_dob"
+                        style="@style/textStyleEditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_stroke"
+                        android:drawableLeft="@drawable/dob_icon"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:hint="@string/dob"
+
+                        android:paddingVertical="@dimen/_12sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:textColorHint="@color/color_gray"
+
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:drawableStart="@drawable/dob_icon"
+                        android:paddingStart="@dimen/_20sdp">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/et_age"
+                        style="@style/textStyleEditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:inputType="number"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:textColorHint="@color/color_gray"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_stroke"
+                        android:drawableLeft="@drawable/age_icon"
+                        android:drawablePadding="@dimen/_15sdp"
+
+                        android:hint="@string/age"
+                        android:paddingVertical="@dimen/_12sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+
+                        android:paddingStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:drawableStart="@drawable/age_icon">
+
+                    </EditText>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/layout_weight_goal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    app:layout_constraintTop_toBottomOf="@id/layout_dob_age"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    >
+<!--                    android:focusable="false"-->
+<!--                    android:clickable="true"-->
+                    <EditText
+                        android:id="@+id/et_wieght"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/textStyleEditText"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/color_gray"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:imeOptions="actionNext"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:paddingVertical="@dimen/_12sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:drawableLeft="@drawable/weight_icon"
+                        android:hint="@string/wieght"
+                        android:background="@drawable/rounded_stroke"
+                        android:paddingStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:drawableStart="@drawable/weight_icon">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/et_goal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="visible"
+                        style="@style/textStyleEditText"
+                        android:textColorHint="@color/color_gray"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:drawablePadding="@dimen/_15sdp"
+                        android:paddingVertical="@dimen/_12sdp"
+                        android:paddingLeft="@dimen/_20sdp"
+                        android:drawableLeft="@drawable/goal_icon"
+                        android:hint="@string/goal"
+                        android:background="@drawable/rounded_stroke"
+
+                        android:drawableStart="@drawable/goal_icon"
+                        android:paddingStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_8sdp">
+
+                    </EditText>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/textStyleEditText"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:drawablePadding="@dimen/_15sdp"
+                    android:paddingVertical="@dimen/_12sdp"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:textColorHint="@color/color_gray"
+                    android:drawableLeft="@drawable/phone_icon"
+                    android:hint="@string/phone_number"
+                    android:background="@drawable/rounded_stroke"
+                    app:layout_constraintTop_toBottomOf="@id/layout_weight_goal"
+                    android:drawableStart="@drawable/phone_icon"
+                    android:paddingStart="@dimen/_20sdp">
+
+                </EditText>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_signup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/textStyleWhite"
+                            android:text="@string/sign_up"
+                            android:background="@drawable/btn_round_sky_blue"
+                            android:layout_marginTop="@dimen/_22sdp"
+                            app:layout_constraintTop_toBottomOf="@id/et_phone"
+                            >
+
+                        </androidx.appcompat.widget.AppCompatButton>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

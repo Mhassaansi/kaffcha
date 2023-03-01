@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_background"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".fragments.VerificationFragment">
+
+
+
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verification"
+            android:layout_marginTop="@dimen/_20sdp"
+            style="@style/textStyleWhiteTitleBar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </TextView>
+
+
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_back_arrow"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="@id/tv_tittle"
+        app:layout_constraintBottom_toBottomOf="@id/tv_tittle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_10sdp">
+
+    </ImageView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_tittle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app_icon"
+            android:layout_marginTop="@dimen/_22sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+<!--
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginBottom="80dp"
+            android:paddingHorizontal="@dimen/_35sdp"
+            app:layout_constraintTop_toBottomOf="@+id/imgLogo">
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+            <com.mukesh.OtpView
+                android:id="@+id/otp_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:focusableInTouchMode="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:itemBackground="@drawable/bg_circle_white"
+                android:textColor="@android:color/black"
+                app:OtpItemCount="6"
+                app:layout_constraintTop_toBottomOf="@id/imgLogo"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/textStyleWhite"
+                android:text="@string/continue_"
+                android:layout_marginHorizontal="@dimen/_35sdp"
+                android:background="@drawable/btn_round_sky_blue"
+                android:layout_marginTop="@dimen/_22sdp"
+                app:layout_constraintTop_toBottomOf="@id/otp_view"
+                >
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_timer"
+        android:layout_width="@dimen/_104sdp"
+        android:layout_height="@dimen/_116sdp"
+        android:background="@drawable/clock_icon"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_continue"
+        />
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+
+        app:cpb_background_progressbar_color="@color/full_transparent"
+        app:cpb_progress_direction="to_left"
+        app:cpb_progressbar_color="@color/sky_blue"
+        app:cpb_progressbar_width="10dp"
+        app:cpb_round_border="false"
+        app:layout_constraintLeft_toLeftOf="@id/iv_timer"
+        app:layout_constraintRight_toRightOf="@id/iv_timer"
+        app:layout_constraintTop_toTopOf="@id/iv_timer"
+        app:layout_constraintBottom_toBottomOf="@id/iv_timer"
+        app:layout_constraintEnd_toEndOf="@id/iv_timer"
+        app:layout_constraintStart_toStartOf="@id/iv_timer"
+        android:layout_marginEnd="@dimen/_5sdp" />
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:45"
+        style="@style/textStyleWhite"
+        app:layout_constraintLeft_toLeftOf="@id/circularProgressBar"
+        app:layout_constraintRight_toRightOf="@id/circularProgressBar"
+        app:layout_constraintTop_toTopOf="@id/circularProgressBar"
+        app:layout_constraintBottom_toBottomOf="@id/circularProgressBar"
+
+        app:layout_constraintStart_toStartOf="@id/circularProgressBar"
+        app:layout_constraintEnd_toEndOf="@id/circularProgressBar">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_Link_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/didnt_receive_code_Resend"
+        android:layout_marginBottom="@dimen/_20sdp"
+        style="@style/textStyleWhiteLinks"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_timer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

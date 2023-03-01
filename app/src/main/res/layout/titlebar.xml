@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rlTitlebarMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:elevation="@dimen/_10sdp"
+        android:background="@drawable/toolbar_shape"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/btn_back_arrow"
+        android:visibility="visible"
+        app:tint="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/selector"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/user_dp"
+        android:visibility="gone"
+        app:tint="@color/white"
+        android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/iv_notification"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/notify_icon"
+        android:visibility="visible"
+         />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivProfileRight"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/selector"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/user_dp"
+        android:visibility="gone"
+        app:tint="@color/white" />
+
+    </RelativeLayout>
+

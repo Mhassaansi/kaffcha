@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.LiveEventFragment">
+
+    <com.red5pro.streaming.view.R5VideoView
+        android:id="@+id/videoPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/live_event_bg"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        >-->
+
+<!--    </ImageView>-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_user"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/user_dp"
+        app:civ_border_width="@dimen/_1sdp"
+        app:civ_border_color="@color/white"
+        android:layout_margin="@dimen/_20sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/event_name"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toTopOf="@id/iv_user"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/iv_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+
+    <ImageButton
+        android:id="@+id/btn_reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reject_call_icon"
+        app:layout_constraintBottom_toTopOf="@id/iv_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageButton>
+
+    <ImageView
+        android:id="@+id/iv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/live_event_bottom_bg"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/live"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_regular"
+        android:drawableLeft="@drawable/pink_dot_icon"
+        android:drawablePadding="@dimen/_10sdp"
+        android:drawableTint="@color/color_red"
+        android:layout_marginBottom="@dimen/_15ssp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableStart="@drawable/pink_dot_icon"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </TextView>
+
+
+    <ImageButton
+        android:id="@+id/btn_vide_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:background="@drawable/btn_video_call"
+        app:layout_constraintTop_toTopOf="@id/iv_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/btn_vide_call_stop"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:background="@drawable/video_mute"
+        app:layout_constraintTop_toTopOf="@id/iv_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/btn_mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:background="@drawable/btn_mic"
+        app:layout_constraintTop_toTopOf="@id/iv_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_33sdp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/btn_mic_stop"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:background="@drawable/mute"
+        app:layout_constraintTop_toTopOf="@id/iv_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_33sdp">
+
+    </ImageButton>
+
+
+    <ImageButton
+        android:id="@+id/btn_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:background="@drawable/btn_speaker"
+        android:layout_marginRight="@dimen/_33sdp"
+        app:layout_constraintTop_toTopOf="@id/iv_bottom"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/_33sdp">
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/btn_speaker_stop"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:background="@drawable/speaker_mute"
+        android:layout_marginRight="@dimen/_33sdp"
+        app:layout_constraintTop_toTopOf="@id/iv_bottom"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/_33sdp">
+    </ImageButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

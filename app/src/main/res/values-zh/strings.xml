@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tafcha</string>
+
+    <string name="app_id_fb">792923668611093</string>
+    <string name="facebook_client_token">fdeed6f4d178d7769e89525f7e2d4c45</string>
+
+    <string name="hello_blank_fragment">你好空白片段</string>
+
+
+
+    <string name="thank_you_your_challenge_has_been_sent">谢谢，您的挑战已发送</string>
+    <string name="succesful_saved">成功保存</string>
+
+
+    <string name="password_reset_successfull">密码重置
+成功</string>
+    <string name="agreedel">您是否同意删除帐户</string>
+    <string name="delaccount">删除帐户</string>
+    <string name="signin_with_email">使用邮箱登录</string>
+    <string name="signin_with_facebook">用 Facebook 登录</string>
+    <string name="signin_with_google">用谷歌登录</string>
+    <string name="signin_with_apple">用苹果登录</string>
+<string name="lost">丢失的</string>
+
+    <string name="intro_video">介绍视频</string>
+
+    <string name="client">客户端</string>
+
+    <string name="client_list">客户列表</string>
+<string name="del">删除</string>
+    <string name="users">用户</string>
+
+    <string name="select_user">选择用户</string>
+    <string name="user">用户</string>
+    <string name="trainer">培训师</string>
+    <string name="pre_login">预登录</string>
+
+    <string name="please_accept_terms">请接受条款&amp;政策第一</string>
+
+    <string name="user_selct">请从给定列表中至少选择一个用户</string>
+    <string name="user_active">用户活跃</string>
+
+    <string name="current">当前</string>
+
+    <string name="event_title">活动标题</string>
+    <string name="invite_users">邀请用户</string>
+
+    <string name="date">日期</string>
+    <string name="users_who_attended">参加的用户</string>
+    <string name="create_new">新建</string>
+    <string name="create">创建</string>
+    <string name="update">更新</string>
+    <string name="forget_password_link">忘记密码？</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="call_record"><u>通话录音</u></string>
+    <string name="login">登录</string>
+    <string name="get_code">获取代码</string>
+    <string name="don_t_have_an_account">没有账户？注册</string>
+    <string name="didnt_receive_code_Resend">没有收到代码？重新发送</string>
+    <string name="create_one">创建一个</string>
+    <string name="password">密码</string>
+    <string name="enter_old_pass">输入旧密码</string>
+    <string name="enter_new_pass">输入新密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="dob">出生日期</string>
+    <string name="age">年龄</string>
+    <string name="wieght">重量</string>
+    <string name="hieght">高度</string>
+    <string name="goal">目标</string>
+
+    <string name="biography">传记</string>
+    <string name="phone_number">电话号码</string>
+    <string name="continue_">继续</string>
+    <string name="email">电子邮件</string>
+    <string name="full_name">全名</string>
+    <string name="email_address">电子邮件地址</string>
+    <string name="sign_up">注册</string>
+    <string name="Edit_profile">编辑配置文件</string>
+    <string name="done">完成</string>
+    <string name="profile_setup">配置文件设置</string>
+    <string name="update_trainer_profile">更新培训师资料</string>
+
+    <string name="start_streaming">开始串流</string>
+    <string name="join_event">加入活动</string>
+    <string name="term">我已阅读并同意条款 &amp;条件和隐私政策</string>
+    <string name="resend_code">重新发送代码</string>
+    <string name="we_have_sent_you_an_email_containing">我们已向您发送一封电子邮件，其中包含</string>
+    <string name="verification_code">验证码</string>
+    <string name="verification">验证</string>
+    <string name="and_instructions_please">和说明。请</string>
+    <string name="follow_the_instructions_to_verify_your_email_address">按照说明验证您的电子邮件地址</string>
+    <string name="reset_password">重置密码</string>
+    <string name="update_password">更新密码</string>
+    <string name="edit_profile">编辑配置文件</string>
+    <string name="reset">重置</string>
+    <string name="select">选择</string>
+    <string name="course">课程</string>
+    <string name="select_course">选择课程</string>
+    <string name="dashboard">仪表板</string>
+    <string name="courses">课程</string>
+    <string name="search">搜索</string>
+    <string name="forums">论坛</string>
+    <string name="certificates">证书</string>
+    <string name="payment">付款</string>
+    <string name="change_password">更改密码</string>
+    <string name="terms_amp_conditions"><![CDATA[条款和条件]]></string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="help_amp_feedback"><![CDATA[帮助和反馈]]></string>
+    <string name="logout">注销</string>
+    <string name="lorem">作給読離崩改満発芸子景金属需。三世府赤継議寄田者載測府戸由県。系屋換歩則川決井特敬掲建必等済育。至情数識性板前名込強属考問術前立紙壌。五写一部拒南色反造入投一出浮武池備。知解就計全移航図査首乾川誇調。無写準特健禁更象更人抽要雄料領重送。性若供角表景松日禁逮記党物済手乗職。革史長報写減同済書万介意誌聞。
+</string>
+    <string name="app_id">AIzaSyBDQc1Qfa8vSvHI5by1Mhl_VFmZFeyNppU</string>
+    <string name="choice">选择</string>
+    <string name="custom_error_password_not_equal">密码不匹配</string>
+    <string name="custom_error_password_change_pass_not_equal">密码与新密码不匹配</string>
+    <string name="invalidEmail">电子邮件是必需的</string>
+    <string name="invalidName">名称为必填项</string>
+    <string name="invalidPhone">电话号码为必填项</string>
+    <string name="invalidPass">需要密码</string>
+    <string name="regexErrorMessage">密码无效。密码最小长度应为 8 个字符</string>
+
+
+    <string name="reward_points_won">奖励积分50！</string>
+
+    <string name="congratulations">恭喜</string>
+    <string name="challenge_lost">挑战失败</string>
+    <string name="congrats_your_acc..">恭喜，您的帐户已
+已成功注册</string>
+    <string name="challenge_by_dennis">丹尼斯·埃利斯的挑战获胜了！！！
+完成时间 1:31 分钟</string>
+
+
+    <string name="home">首页</string>
+
+    <string name="notes">注释</string>
+    <string name="add_notes">添加注释</string>
+    <string name="agreement">协议</string>
+    <string name="challenge_description_">挑战说明</string>
+
+    <string name="notifications">通知</string>
+    <string name="notification">通知</string>
+    <string name="about_us">关于我们</string>
+    <string name="password_reset">密码重置</string>
+
+
+    <string name="challenged_won">挑战赢了！</string>
+    <string name="challenges_to_you">挑战你</string>
+    <string name="reward_50_points">奖励50分</string>
+
+    <string name="live_stream">直播</string>
+
+    <string name="live">直播</string>
+    <string name="event_name">事件名称</string>
+
+    <string name="events">事件</string>
+    <string name="events_details">活动详情</string>
+    <string name="request_received">请求已收到</string>
+    <string name="previous_challenges">以前的挑战</string>
+
+    <string name="last">最后一个</string>
+    <string name="draw">绘制</string>
+
+    <string name="friend_time">朋友的时间</string>
+    <string name="challenge_a_friend">挑战朋友</string>
+    <string name="challenge_friend">挑战好友</string>
+    <string name="reject_challenge_friend">拒绝挑战</string>
+    <string name="stop">停止</string>
+    <string name="start">开始</string>
+    <string name="time">时间</string>
+    <string name="exercise">练习</string>
+    <string name="history">历史</string>
+    <string name="see_all">查看全部</string>
+
+    <string name="view_all">查看全部</string>
+
+
+    <string name="type_here">在此处输入....</string>
+    <string name="see_more">查看更多</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒绝</string>
+    <string name="i_have_read..">我已阅读并同意</string>
+    <string name="challenges">挑战</string>
+
+    <string name="fields_cant_be_empty">字段不能为空</string>
+    <string name="image_cant_be_empty">图片不能为空</string>
+    <string name="video_cant_be_empty">视频不能为空</string>
+    <string name="invalid_email_format">无效的电子邮件格式</string>
+    <string name="password_must_be">密码长度必须为 8 个字符</string>
+    <string name="confirm_pass_doesnt_match">确认密码不匹配</string>
+    <string name="new_and_old_pass_must">新旧密码不能相同</string>
+
+
+    <string name="training">训练</string>
+    <string name="challenge">挑战</string>
+    <string name="trainers">培训师</string>
+    <string name="friends">朋友</string>
+    <string name="leader_board">排行榜</string>
+    <string name="calendar">日历</string>
+    <string name="challenge_feed">挑战饲料</string>
+    <string name="rewards">奖励</string>
+    <string name="settings">设置</string>
+
+    <string name="reminder">提醒</string>
+
+
+    <string name="your_event_has_been_created">您的活动有
+已创建</string>
+
+    <string name="earn_rewards_points_to..">赚取奖励积分到
+参加幸运抽奖</string>
+    <string name="points">点数</string>
+
+    <string name="friends_request">好友请求</string>
+
+
+    <string name="experience">经验</string>
+    <string name="Bio">生物</string>
+    <string name="result">结果</string>
+    <string name="pending">待处理</string>
+    <string name="sent">已发送</string>
+    <string name="received">收到</string>
+    <string name="send_request">发送请求</string>
+
+    <string name="decline">拒绝</string>
+    <string name="request">请求</string>
+    <string name="search_">搜索</string>
+    <string name="add_friends">添加好友</string>
+    <string name="invite_friend">邀请好友</string>
+
+    <string name="reward">奖励</string>
+
+    <string name="profile">个人资料</string>
+
+
+    <string name="inProgress">进行中</string>
+    <string name="play_video">播放视频</string>
+    <string name="upload_video">上传视频</string>
+    <string name="update_video">更新视频</string>
+
+    <string name="feed">饲料</string>
+    <string name="my_challenges">我的挑战</string>
+    <string name="internetconnection">没有互联网连接</string>
+
+    <string name="training_description">查看训练计划。</string>
+    <string name="challenge_description">通过有竞争力的方式挑战你的朋友
+练习，看看谁赢了。</string>
+    <string name="trainers_description">与训练有素的培训师联系以查看
+他们锻炼并获得指导。</string>
+    <string name="friends_description">与您的朋友联系以分享您的
+进步，看看他们的。</string>
+    <string name="leader_board_description">在排行榜上上升到
+赢得一辆 Peloton Bike。</string>
+    <string name="calendar_description">计划您的锻炼以获得更好的一致性。</string>
+    <string name="challenge_feed_description">查看谁挑战谁并评价谁
+做得最好。</string>
+    <string name="rewards_description">管理你的积分，看看你的立场。</string>
+    <string name="mark_as_completed">标记为已完成</string>
+    <string name="english">英语</string>
+    <string name="Please_accept_terms">请先接受条款政策</string>
+    <string name="Confirm_password">确认密码</string>
+    <string name="Accept">韩元</string>
+    <string name="فchallenge_friend">挑战朋友</string>
+    <string name="won">韩元</string>
+
+
+</resources>

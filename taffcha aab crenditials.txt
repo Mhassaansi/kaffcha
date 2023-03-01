@@ -1,0 +1,4 @@
+Key store path => C:\Users\muhammad.hassan\AndroidStudioProjects\tafcha\Google Play Keys\key.jks
+Alias => tafcha
+password => tafcha
+SHA1: 0A:F1:D4:11:32:CA:D0:8A:3B:5A:D5:AB:9E:D7:C5:8E:46:A4:B0:12

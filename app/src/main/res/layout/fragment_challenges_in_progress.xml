@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ChallengesInProgressFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_user"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_5sdp"
+
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/user_dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/sky_blue"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Smith"
+                style="@style/textStyleHeadingPink"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                app:layout_constraintLeft_toRightOf="@id/profile_image"
+                app:layout_constraintTop_toTopOf="parent"
+
+                android:layout_marginStart="@dimen/_15sdp"
+                app:layout_constraintStart_toEndOf="@id/profile_image">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="john.smith@domain.com"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_marginLeft="@dimen/_15sdp"
+                app:layout_constraintLeft_toRightOf="@id/profile_image"
+                app:layout_constraintTop_toBottomOf="@id/tv_user_name"
+
+                app:layout_constraintStart_toEndOf="@id/profile_image"
+                android:layout_marginStart="@dimen/_15sdp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tv_exercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exercise"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:drawableLeft="@drawable/pink_dot_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                style="@style/textStyleHeadingPink"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profile_image"
+                android:drawableStart="@drawable/pink_dot_icon"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/tv_exercise_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lorem ipsum dolor sit amet, consectetur
+adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi
+ut aliquip ex ea commodo consequat.
+et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation
+ullamco laboris."
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_medium"
+
+                app:layout_constraintTop_toBottomOf="@id/tv_exercise"
+
+                >
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_36sdp"
+                android:src="@drawable/compeleted_icon"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_exercise_details"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completed"
+                style="@style/textStyleHeadingPink"
+                android:textSize="@dimen/_17ssp"
+                android:layout_marginTop="@dimen/_36sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                app:layout_constraintLeft_toRightOf="@id/profile_image"
+              app:layout_constraintTop_toBottomOf="@id/iv_completed"
+
+                app:layout_constraintStart_toEndOf="@id/profile_image"
+                android:layout_marginStart="@dimen/_15sdp">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "224259103846",
+    "project_id": "tafcha-c0a01",
+    "storage_bucket": "tafcha-c0a01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224259103846:android:9e060b157f5e562ef1a1a7",
+        "android_client_info": {
+          "package_name": "com.fictivestudios.tafcha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224259103846-nh1i12r7ae14d146pdojrlkcm7m5lfli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fictivestudios.tafcha",
+            "certificate_hash": "0af1d41132cad08a3b5ad5ab9ed7c58e46a4b012"
+          }
+        },
+        {
+          "client_id": "224259103846-uh0acpfc061ckgpvhij405uj1ck45t5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATtILd9lKr_REiO2EuEfHyTXLu_ub3wAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224259103846-uh0acpfc061ckgpvhij405uj1ck45t5t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "224259103846-146cplb78fcbonm5q0jbrr651549kpjp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fictivestudios.tafcha"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

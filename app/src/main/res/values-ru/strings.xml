@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tafcha</string>
+
+    <string name="app_id_fb">792923668611093</string>
+    <string name="facebook_client_token">fdeed6f4d178d7769e89525f7e2d4c45</string>
+    <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
+
+    <string name="thank_you_your_challenge_has_been_sent">Спасибо, ваш вызов отправлен</string>
+    <string name="succesful_saved">Успешно сохранено</string>
+
+
+    <string name="password_reset_successfull">Сброс пароля
+Успешно</string>
+
+    <string name="delaccount">Удалить аккаунт</string>
+    <string name="signin_with_email">Войти с помощью электронной почты</string>
+    <string name="signin_with_facebook">Войти через Facebook</string>
+    <string name="signin_with_google">Войти через Google</string>
+    <string name="signin_with_apple">Войти через Apple</string>
+    <string name="agreedel">Вы согласны удалить аккаунт</string>
+    <string name="del">Удалить</string>
+    <string name="intro_video">Вступительное видео</string>
+    <string name="lost">потерял</string>
+    <string name="client">Клиент</string>
+
+    <string name="client_list">Список клиентов</string>
+
+    <string name="users">ПОЛЬЗОВАТЕЛИ</string>
+
+    <string name="select_user">ВЫБЕРИТЕ ПОЛЬЗОВАТЕЛЯ</string>
+    <string name="user">ПОЛЬЗОВАТЕЛЬ</string>
+    <string name="trainer">ТРЕНЕР</string>
+    <string name="pre_login">ПРЕДВАРИТЕЛЬНЫЙ ВХОД</string>
+
+    <string name="please_accept_terms">Примите условия &amp; сначала политика</string>
+
+    <string name="user_active">Пользователь активен</string>
+
+    <string name="current">Текущий</string>
+
+    <string name="event_title">Название события</string>
+    <string name="invite_users">Пригласить пользователей</string>
+
+    <string name="date">Дата</string>
+    <string name="users_who_attended">Пользователи, которые посетили</string>
+    <string name="create_new">Создать новый</string>
+    <string name="create">Создать</string>
+    <string name="update">Обновить</string>
+    <string name="forget_password_link">Забыли пароль?</string>
+    <string name="forget_password">Забыли пароль</string>
+    <string name="call_record">Запись звонков</string>
+    <string name="login">Войти</string>
+    <string name="get_code">Получить код</string>
+    <string name="don_t_have_an_account">У вас нет учетной записи? Зарегистрироваться</string>
+    <string name="didnt_receive_code_Resend">Не получили код? Отправить повторно</string>
+    <string name="create_one">Создать</string>
+    <string name="password">Пароль</string>
+    <string name="enter_old_pass">Введите старый пароль</string>
+    <string name="enter_new_pass">Введите новый пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="dob">Дата рождения</string>
+    <string name="age">Возраст</string>
+    <string name="wieght">Вес</string>
+    <string name="hieght">Высота</string>
+    <string name="goal">Цель</string>
+
+    <string name="biography">Биография</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="continue_">Продолжить</string>
+    <string name="email">Электронная почта</string>
+    <string name="full_name">Полное имя</string>
+    <string name="email_address">Адрес электронной почты</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="Edit_profile">РЕДАКТИРОВАТЬ ПРОФИЛЬ</string>
+    <string name="done">Готово</string>
+    <string name="profile_setup">Настройка профиля</string>
+    <string name="update_trainer_profile">Обновить профиль тренера</string>
+
+    <string name="start_streaming">Начать трансляцию</string>
+    <string name="join_event">Присоединиться к событию</string>
+    <string name="term">Я прочитал и согласен с Условиями &amp; Условия и политика конфиденциальности</string>
+    <string name="resend_code">Отправить код повторно</string>
+    <string name="verification_code">КОД ПРОВЕРКИ </string>
+    <string name="verification">ПРОВЕРКА</string>
+    <string name="and_instructions_please">И инструкции.Пожалуйста</string>
+    <string name="follow_the_instructions_to_verify_your_email_address">следуйте инструкциям, чтобы подтвердить свой адрес электронной почты</string>
+    <string name="reset_password">СБРОСИТЬ ПАРОЛЬ</string>
+    <string name="update_password">ОБНОВИТЬ ПАРОЛЬ</string>
+    <string name="edit_profile">РЕДАКТИРОВАТЬ ПРОФИЛЬ</string>
+    <string name="reset">Сбросить</string>
+    <string name="select">ВЫБРАТЬ</string>
+    <string name="course">Курс</string>
+    <string name="select_course">Выбрать курс</string>
+    <string name="dashboard">ИНФОРМАЦИОННАЯ ПАНЕЛЬ</string>
+    <string name="courses">КУРСЫ</string>
+    <string name="search">ПОИСК</string>
+    <string name="forums">ФОРУМЫ</string>
+    <string name="certificates">СЕРТИФИКАТЫ</string>
+    <string name="payment">ОПЛАТА</string>
+    <string name="change_password">СМЕНИТЬ ПАРОЛЬ</string>
+    <string name="terms_amp_conditions"><![CDATA[СРОКИ И УСЛОВИЯ]]></string>
+    <string name="privacy_policy">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</string>
+    <string name="help_amp_feedback"><![CDATA[HELP & FEEDBACK]]></string>
+    <string name="logout">ВЫХОД</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est Laborum.</string>
+    <string name="app_id">AIzaSyBDQc1Qfa8vSvHI5by1Mhl_VFmZFeyNppU</string>
+    <string name="choice">Выбор</string>
+    <string name="custom_error_password_not_equal">Пароль не совпадает</string>
+    <string name="custom_error_password_change_pass_not_equal">Пароль не соответствует новому паролю</string>
+    <string name="invalidEmail">Требуется адрес электронной почты</string>
+    <string name="invalidName">Требуется имя</string>
+    <string name="invalidPhone">Требуется номер телефона</string>
+    <string name="invalidPass">Требуется пароль</string>
+    <string name="regexErrorMessage">Неверный пароль. Минимальная длина пароля должна быть 8 символов</string>
+
+
+    <string name="reward_points_won">Выиграно 50 призовых баллов!</string>
+
+    <string name="congratulations">Поздравляем</string>
+    <string name="challenge_lost">Испытание проиграно</string>
+    <string name="congrats_your_acc..">Поздравляем, ваша учетная запись
+прошла успешную регистрацию</string>
+    <string name="challenge_by_dennis">Вызов Денниса Эллиса выиграл!!!
+Время завершения 1:31 мин</string>
+
+
+    <string name="home">Главная</string>
+
+    <string name="notes">Примечания</string>
+    <string name="add_notes">Добавить примечания</string>
+    <string name="agreement">Соглашение</string>
+    <string name="challenge_description_">Описание испытания</string>
+
+    <string name="notifications">Уведомления</string>
+    <string name="notification">Уведомление</string>
+    <string name="about_us">О нас</string>
+    <string name="password_reset">Сброс пароля</string>
+
+
+    <string name="challenged_won">Выиграл вызов!</string>
+    <string name="challenges_to_you">Вызов вам</string>
+    <string name="reward_50_points">Награда 50 баллов</string>
+
+    <string name="live_stream">Прямая трансляция</string>
+
+    <string name="live">Прямой эфир</string>
+    <string name="event_name">Название события</string>
+
+    <string name="events">События</string>
+    <string name="events_details">Подробности событий</string>
+    <string name="request_received">Запрос получен</string>
+    <string name="previous_challenges">Предыдущие испытания</string>
+
+    <string name="last">Последний</string>
+    <string name="draw">Рисовать</string>
+
+    <string name="friend_time">Время друга</string>
+    <string name="challenge_a_friend">вызов друга</string>
+    <string name="challenge_friend">Вызов другу</string>
+    <string name="reject_challenge_friend">Отклонить вызов</string>
+    <string name="stop">Остановить</string>
+    <string name="start">Начать</string>
+    <string name="time">Время</string>
+    <string name="exercise">Упражнение</string>
+    <string name="history">История</string>
+    <string name="see_all">Просмотреть все</string>
+
+    <string name="view_all">Просмотреть все</string>
+
+
+    <string name="type_here">Введите здесь....</string>
+    <string name="see_more">Подробнее</string>
+    <string name="accept">Принять</string>
+    <string name="reject">Отклонить</string>
+    <string name="i_have_read..">Я прочитал и согласен</string>
+    <string name="challenges">Испытания</string>
+
+    <string name="fields_cant_be_empty">Поля не могут быть пустыми</string>
+    <string name="image_cant_be_empty">Изображение не может быть пустым</string>
+    <string name="video_cant_be_empty">Видео не может быть пустым</string>
+    <string name="invalid_email_format">Недопустимый формат электронной почты</string>
+    <string name="password_must_be">Пароль должен состоять из 8 символов</string>
+    <string name="confirm_pass_doesnt_match">Подтвердите, что пароль не совпадает</string>
+    <string name="new_and_old_pass_must">новый и старый пароль не должны совпадать</string>
+
+
+    <string name="training">ОБУЧЕНИЕ</string>
+    <string name="challenge">ЗАДАНИЕ</string>
+    <string name="trainers">ТРЕНЕРЫ</string>
+    <string name="friends">ДРУЗЬЯ</string>
+    <string name="leader_board">СПРАВКА ЛИДЕРОВ</string>
+    <string name="calendar">КАЛЕНДАРЬ</string>
+    <string name="challenge_feed">ЗАДАЧИ ФИДЫ</string>
+    <string name="rewards">НАГРАДЫ</string>
+    <string name="settings">НАСТРОЙКИ</string>
+
+    <string name="reminder">Напоминание</string>
+
+
+    <string name="your_event_has_been_created">Ваше мероприятие
+было создано</string>
+
+    <string name="earn_rewards_points_to..">Зарабатывайте бонусные баллы, чтобы
+принять участие в розыгрыше</string>
+    <string name="points">Очки</string>
+
+    <string name="friends_request">ЗАПРОС ДРУЗЕЙ</string>
+
+
+    <string name="experience">Опыт</string>
+    <string name="Bio">Биография</string>
+    <string name="result">Результат</string>
+    <string name="pending">В ожидании</string>
+    <string name="sent">Отправлено</string>
+    <string name="received">Получено</string>
+    <string name="send_request">Отправить запрос</string>
+
+    <string name="decline">Отклонить</string>
+    <string name="request">Запрос</string>
+    <string name="search_">Поиск</string>
+    <string name="add_friends">Добавить друзей</string>
+    <string name="invite_friend">Пригласить друга</string>
+
+    <string name="reward">Награда</string>
+
+    <string name="profile">Профиль</string>
+
+
+    <string name="inProgress">Выполняется</string>
+    <string name="play_video">Воспроизвести видео</string>
+    <string name="upload_video">Загрузить видео</string>
+    <string name="update_video">Обновить видео</string>
+
+    <string name="feed">Фид</string>
+    <string name="my_challenges">Мои задачи</string>
+    <string name="internetconnection">Нет подключения к Интернету</string>
+
+    <string name="training_description">Просмотр планов тренировок для ваших тренировок.</string>
+    <string name="challenge_description">Бросьте вызов своим друзьям,
+упражнения и посмотреть, кто победит.</string>
+    <string name="trainers_description">Свяжитесь с высококвалифицированными тренерами, чтобы увидеть
+они тренируются и получают рекомендации.</string>
+    <string name="friends_description">Общайтесь с друзьями, чтобы делиться
+прогресс и увидеть их.</string>
+    <string name="leader_board_description">Поднимитесь в таблице лидеров, чтобы
+выиграть велосипед Peloton.</string>
+    <string name="calendar_description">Планируйте свои тренировки так, чтобы они были более последовательными.</string>
+    <string name="challenge_feed_description">Узнайте, кто кому бросил вызов, и оцените, кто
+сделал это лучше всего.</string>
+    <string name="rewards_description">Управляйте своими баллами и смотрите, где вы находитесь.</string>
+
+
+    <!--
+    <string name="regexErrorMessage">Неверный пароль. Пароль должен состоять из восьми символов и содержать заглавные и строчные буквы, а также цифру</string>
+    -->
+    <string name="mark_as_completed">Отметить как выполненное</string>
+
+
+    //языки
+
+    <string name="english">английский</string>
+    <string name="user_selct">Пожалуйста, выберите хотя бы пользователя из данного списка</string>
+    <string name="Please_accept_terms">Сначала примите условия политики</string>
+    <string name="Confirm_password">Подтвердить Пароль</string>
+    <string name="we_have_sent_you_an_email_containing">Мы отправили вам электронное письмо, содержащее</string>
+    <string name="Accept">Выиграл</string>
+    <string name="فchallenge_friend">Вызов другу</string>
+    <string name="won">Выиграл</string>
+
+
+</resources>

@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">Tafcha</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+      <string name="app_id_fb">792923668611093</string>
+      <string name="facebook_client_token">fdeed6f4d178d7769e89525f7e2d4c45</string>
+
+    <string name="thank_you_your_challenge_has_been_sent">Thank You, Your Challenge has been Sent</string>
+    <string name="succesful_saved">Succesfull Saved</string>
+
+
+    <string name="password_reset_successfull">Password Reset Successfull</string>
+
+
+    <string name="signin_with_email">Signin with Email</string>
+    <string name="signin_with_facebook">Signin with Facebook</string>
+    <string name="signin_with_google">Signin with Google</string>
+    <string name="signin_with_apple">Signin with Apple</string>
+
+
+    <string name="intro_video">Intro Video</string>
+
+    <string name="client">Client</string>
+
+    <string name="client_list">Client List</string>
+
+    <string name="users">USERS</string>
+
+    <string name="select_user">SELECT USER</string>
+    <string name="user">USER</string>
+    <string name="trainer">TRAINER</string>
+    <string name="pre_login">PRE LOGIN</string>
+
+    <string name="please_accept_terms">Please accept terms &amp; policy first</string>
+
+    <string name="user_selct">Please Select atleast on user from given list</string>
+    <string name="user_active">User Active</string>
+
+    <string name="current">Current</string>
+
+    <string name="event_title">Event Title</string>
+    <string name="invite_users">Invite Users</string>
+    <string name="invite_trainers" translatable="false">Invite Trainers</string>
+    <string name="service" translatable="false">Service Not Available</string>
+
+    <string name="date">Date</string>
+    <string name="users_who_attended">Users who attended</string>
+    <string name="create_new">Create New</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+    <string name="forget_password_link">Forget Password?</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="call_record">Call recording</string>
+    <string name="login">Login</string>
+    <string name="get_code">Get Code</string>
+    <string name="don_t_have_an_account">Don\'t have an account? Signup</string>
+    <string name="didnt_receive_code_Resend">Didn\'t receive code? Resend</string>
+    <string name="create_one">Create One</string>
+    <string name="password">Password</string>
+    <string name="enter_old_pass">Enter Old Password</string>
+    <string name="enter_new_pass">Enter New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dob">Date of Birth</string>
+    <string name="age">Age</string>
+    <string name="wieght">Weight</string>
+    <string name="hieght">Height</string>
+    <string name="goal">Goal</string>
+
+    <string name="biography">Biography</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_">Continue</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Edit_profile">EDIT PROFILE</string>
+    <string name="done">Done</string>
+    <string name="profile_setup">Profile Setup</string>
+    <string name="update_trainer_profile">Update Trainer Profile</string>
+
+    <string name="start_streaming">Start Streaming</string>
+    <string name="join_event">Join event</string>
+    <string name="term">I have read and agreed the Terms &amp; Conditions and Privacy Policy</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="del">Delete</string>
+    <string name="we_have_sent_you_an_email_containing">We have sent you an email containing</string>
+    <string name="verification_code">VERIFICATION CODE </string>
+    <string name="verification">VERIFICATION</string>
+    <string name="and_instructions_please">And instructions.Please</string>
+    <string name="follow_the_instructions_to_verify_your_email_address">follow the instructions to verify your email address</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="update_password">UPDATE PASSWORD</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="reset">Reset</string>
+    <string name="select">SELECT</string>
+    <string name="course">Course</string>
+    <string name="select_course">Select Course</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="courses">COURSES</string>
+    <string name="search">SEARCH</string>
+    <string name="forums">FORUMS</string>
+    <string name="certificates">CERTIFICATES</string>
+    <string name="payment">PAYMENT</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="terms_amp_conditions"><![CDATA[TERMS & CONDITIONS]]></string>
+    <string name="privacy_policy">PRIVACY POLICY</string>
+    <string name="help_amp_feedback"><![CDATA[HELP & FEEDBACK]]></string>
+    <string name="logout">LOGOUT</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="app_id">AIzaSyBDQc1Qfa8vSvHI5by1Mhl_VFmZFeyNppU</string>
+    <string name="choice">Choice</string>
+    <string name="custom_error_password_not_equal">Password doesn\'t match</string>
+    <string name="custom_error_password_change_pass_not_equal">Password doesn\'t match new password</string>
+    <string name="invalidEmail">Email is Required</string>
+    <string name="invalidName">Name is Required</string>
+    <string name="invalidPhone">Phone Number is Required</string>
+    <string name="invalidPass">Password is Required</string>
+    <string name="regexErrorMessage">Invalid password. Password minimum length should be 8 characters</string>
+
+
+    <string name="reward_points_won">Reward Points Won 50!</string>
+
+    <string name="congratulations">Congratulations</string>
+    <string name="challenge_lost">Challenge Lost</string>
+    <string name="congrats_your_acc..">Congratulations, your account has
+    been Successfully Signup</string>
+    <string name="challenge_by_dennis">Challenge by Dennis Ellis won!!!
+    Completion time 1:31 min</string>
+
+
+    <string name="home">Home</string>
+
+    <string name="notes">Notes</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="agreement">Agreement</string>
+    <string name="challenge_description_">Challenge Description</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="notification">Notification</string>
+    <string name="about_us">About Us</string>
+    <string name="password_reset">Password reset</string>
+
+
+    <string name="challenged_won">Challenged Won!</string>
+    <string name="challenges_to_you">Challenged to you</string>
+    <string name="reward_50_points">Rewards 50 points</string>
+
+    <string name="live_stream">LIVE STREAMING</string>
+
+    <string name="live">Live</string>
+    <string name="event_name">Event Name</string>
+
+    <string name="events">EVENTS</string>
+    <string name="events_details">Events Details</string>
+    <string name="request_received">Request Received</string>
+    <string name="previous_challenges">Previous Challenges</string>
+
+    <string name="Accept">Won</string>
+    <string name="last">Lost</string>
+    <string name="draw">Draw</string>
+    <string name="won">Won</string>
+    <string name="lost">Lost</string>
+
+    <string name="friend_time">Friend\'s Time</string>
+    <string name="challenge_a_friend">Challenge A Friend</string>
+    <string name="challenge_friend">Challenge Friend</string>
+    <string name="reject_challenge_friend">Reject Challenge</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="time">Time</string>
+    <string name="exercise">Exercise</string>
+    <string name="history">History</string>
+    <string name="see_all">See All</string>
+
+    <string name="view_all">View All</string>
+
+
+    <string name="type_here">Type Here....</string>
+    <string name="see_more">See More</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="i_have_read..">I have read and agree with</string>
+    <string name="challenges">Challenges</string>
+
+    <string name="fields_cant_be_empty">Field\'s can\'t be empty</string>
+    <string name="image_cant_be_empty">Image can\'t be empty</string>
+    <string name="video_cant_be_empty">Video can\'t be empty</string>
+    <string name="invalid_email_format">Invalid email format</string>
+    <string name="password_must_be">Password must be 8 characters long</string>
+    <string name="confirm_pass_doesnt_match">Confirm password doesn\'t match</string>
+    <string name="new_and_old_pass_must">new and old password shouldn\'t be same</string>
+
+
+    <string name="training">TRAINING</string>
+    <string name="challenge">CHALLENGE</string>
+    <string name="trainers">TRAINERS</string>
+    <string name="friends">FRIENDS</string>
+    <string name="leader_board">LEADERBOARD</string>
+    <string name="calendar">CALENDAR</string>
+    <string name="challenge_feed">CHALLENGES FEEDS</string>
+    <string name="rewards">REWARDS</string>
+    <string name="settings">SETTINGS</string>
+
+    <string name="reminder">Reminder</string>
+
+
+    <string name="your_event_has_been_created">Your Event has
+    been Created</string>
+
+    <string name="earn_rewards_points_to..">Earn reward points to
+enter lucky draw</string>
+    <string name="points">Points</string>
+
+    <string name="friends_request">FRIENDS REQUEST</string>
+
+
+    <string name="experience">Experience</string>
+    <string name="Bio">Bio</string>
+    <string name="result">Result</string>
+    <string name="pending">Pending</string>
+    <string name="sent">Sent</string>
+    <string name="received">Received</string>
+    <string name="send_request">Send Request</string>
+
+    <string name="decline">Decline</string>
+    <string name="request">Request</string>
+    <string name="search_">Search</string>
+    <string name="add_friends">Add Friends</string>
+    <string name="invite_friend">Invite Friend</string>
+
+    <string name="reward">Reward</string>
+
+    <string name="profile">Profile</string>
+    <string name="delaccount">Delete Account</string>
+
+    <string name="inProgress">In Progress</string>
+    <string name="play_video">Play Video</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="update_video">Update Video</string>
+
+    <string name="feed">Feed</string>
+    <string name="my_challenges">My Challenges</string>
+    <string name="internetconnection">No Internet Connection</string>
+
+    <string name="training_description">View Training Plans for your workouts.</string>
+    <string name="challenge_description">Challenge your friends with competitive
+exercises and see who wins.</string>
+    <string name="trainers_description">Connect with highly trained trainers to see
+them work out and get guidance.</string>
+    <string name="friends_description">Connect with your friends to share your
+progress and see theirs.</string>
+    <string name="leader_board_description">Make your way up on the leaderboard to
+win a Peloton Bike.</string>
+    <string name="calendar_description">Plan your workouts for better consistency.</string>
+    <string name="challenge_feed_description">See who challenged whom and rate who
+did it best.</string>
+    <string name="rewards_description">Manage your points and see where you stand.</string>
+
+
+    <string name="mark_as_completed">Mark As Completed</string>
+
+<string name="agreedel">Are you agree to delete account</string>
+    <string name="english">English</string>
+
+
+    <integer-array name="languages_array">
+        <item>@string/english</item>
+        <item>@string/english</item>
+        <item>@string/english</item>
+        <item>@string/english</item>
+    </integer-array>
+
+
+    <integer-array name="exercise_array">
+        <item>@string/exercise</item>
+        <item>@string/exercise</item>
+        <item>@string/exercise</item>
+        <item>@string/exercise</item>
+    </integer-array>
+
+    <integer-array name="img_id_arr">
+        <item>@drawable/calender_slider</item>
+        <item>@drawable/calender_slider</item>
+        <item>@drawable/calender_slider</item>
+        <item>@drawable/calender_slider</item>
+    </integer-array>
+    <string name="Please_accept_terms">Please accept terms &amp; policy first</string>
+    <string name="Confirm_password">Confirm Passwors</string>
+    <string name="فchallenge_friend">challenge friend</string>
+
+</resources>

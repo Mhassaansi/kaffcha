@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ResultDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_user"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_5sdp"
+
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            >
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Smith Challenged you"
+                style="@style/textStyleHeadingPink"
+                android:textSize="@dimen/_14ssp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/_15sdp">
+
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/tv_exercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exercise"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:textSize="@dimen/_12ssp"
+                android:drawableLeft="@drawable/pink_dot_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                style="@style/textStyleHeadingPink"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_user_name"
+                android:drawableStart="@drawable/pink_dot_icon"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </TextView>
+
+
+            <!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:id="@+id/btn_play_others_vid"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginTop="@dimen/_15sdp"-->
+<!--                android:background="@drawable/rounded_mild_white_bg"-->
+<!--                android:padding="@dimen/_50ssp"-->
+<!--                android:orientation="vertical"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/tv_exercise_details"-->
+<!--                >-->
+<!--                <ImageButton-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:backgroundTint="@color/sky_blue"-->
+<!--                    android:background="@drawable/btn_play_video"-->
+<!--                    >-->
+
+<!--                </ImageButton>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_others_vid"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/_5sdp"-->
+<!--                    android:text="Play John Smith's video"-->
+<!--                    style="@style/textStyleHeadingPink"-->
+<!--                    android:textColor="@color/sky_blue"-->
+<!--                    app:layout_constraintLeft_toRightOf="@id/profile_image"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+
+<!--                    app:layout_constraintStart_toEndOf="@id/profile_image">-->
+
+<!--                </TextView>-->
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:id="@+id/btn_play_your_vid"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginTop="@dimen/_15sdp"-->
+<!--                android:background="@drawable/rounded_mild_white_bg"-->
+<!--                android:padding="@dimen/_50ssp"-->
+<!--                android:orientation="vertical"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/btn_play_others_vid"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                >-->
+<!--                <ImageButton-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:backgroundTint="@color/sky_blue"-->
+<!--                    android:background="@drawable/btn_play_video"-->
+<!--                    >-->
+
+<!--                </ImageButton>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_your_vid"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/_5sdp"-->
+<!--                    android:text="Play your video"-->
+<!--                    style="@style/textStyleHeadingPink"-->
+<!--                    android:textColor="@color/sky_blue"-->
+<!--                    app:layout_constraintLeft_toRightOf="@id/profile_image"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+
+<!--                    app:layout_constraintStart_toEndOf="@id/profile_image">-->
+
+<!--                </TextView>-->
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+            <TextView
+                android:id="@id/tv_exercise_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#666666"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/tv_exercise"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/vide_player_1"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_exercise_details"
+                android:layout_marginStart="@dimen/_20sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="@dimen/_20sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <VideoView
+                        android:id="@+id/video_view_triner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"></VideoView>
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/video_player2"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/vide_player_1"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <VideoView
+                        android:id="@+id/video_view_triner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"></VideoView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:src="@drawable/user_dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/color_pink"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Smith"
+            style="@style/textStyleHeadingPink"
+            android:layout_marginLeft="@dimen/_15sdp"
+            app:layout_constraintLeft_toRightOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:layout_marginStart="@dimen/_15sdp"
+            app:layout_constraintStart_toEndOf="@id/profile_image">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise"
+            style="@style/textStyleHeadingPink"
+            android:textColor="@color/color_gray"
+            android:textSize="@dimen/_11ssp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintLeft_toRightOf="@id/profile_image"
+            app:layout_constraintTop_toBottomOf="@id/tv_user_name"
+
+            android:layout_marginStart="@dimen/_15sdp"
+            app:layout_constraintStart_toEndOf="@id/profile_image">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reward"
+            style="@style/textStyleHeadingPink"
+            android:textColor="@color/color_gray"
+            android:textSize="@dimen/_11ssp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:layout_marginStart="@dimen/_15sdp"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_accept"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_28sdp"
+            android:text="@string/accept"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintLeft_toLeftOf="@id/tv_user_name"
+            android:background="@drawable/btn_squire_round_pink"
+            app:layout_constraintRight_toLeftOf="@id/btn_decline"
+            app:layout_constraintTop_toBottomOf="@id/tv_exercise"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_decline"
+            app:layout_constraintStart_toStartOf="@id/tv_user_name"
+            android:layout_marginEnd="@dimen/_5sdp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_decline"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_28sdp"
+            android:text="@string/decline"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@drawable/btn_squire_round_gray"
+            app:layout_constraintLeft_toRightOf="@id/btn_accept"
+            app:layout_constraintTop_toBottomOf="@id/tv_exercise"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/_6sdp"
+            app:layout_constraintStart_toEndOf="@id/btn_accept"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tafcha</string>
+
+    <string name="hello_blank_fragment"> مرحبا قطعة فارغة </string>
+
+    <string name="app_id_fb">792923668611093</string>
+    <string name="facebook_client_token">fdeed6f4d178d7769e89525f7e2d4c45</string>
+    <string name="thank_you_your_challenge_has_been_sent"> شكرًا لك ، لقد تم إرسال التحدي الخاص بك </string>
+    <string name="succesful_saved"> تم حفظ Succesfull </string>
+
+
+    <string name="password_reset_successfull">ناجح إعادة تعيين كلمة المرور</string>
+
+    <string name="delaccount">حذف الحساب</string>
+    <string name="agreedel">هل توافق على حذف الحساب</string>
+    <string name="signin_with_email"> تسجيل الدخول بالبريد الإلكتروني </string>
+    <string name="signin_with_facebook"> تسجيل الدخول باستخدام Facebook </string>
+    <string name="signin_with_google"> تسجيل الدخول باستخدام Google </string>
+    <string name="signin_with_apple"> تسجيل الدخول باستخدام Apple </string>
+
+
+    <string name="intro_video"> مقدمة الفيديو </string>
+
+    <string name="client"> العميل </string>
+
+    <string name="client_list"> قائمة العملاء </string>
+
+    <string name="users">"المستخدمون "</string>
+    <string name="del">حذف</string>
+    <string name="select_user"> حدد المستخدم </string>
+    <string name="user"> USER </string>
+    <string name="trainer"> المدرب </string>
+    <string name="pre_login"> تسجيل الدخول المسبق </string>
+
+    <string name="please_accept_terms"> الرجاء قبول الشروط  amp؛ السياسة أولا </string>
+
+    <string name="user_selct"> يرجى تحديد المستخدم على الأقل من القائمة المحددة </string>
+    <string name="user_active"> مستخدم نشط </string>
+
+    <string name="current">تيار</string>
+
+    <string name="event_title"> عنوان الحدث </string>
+
+    <string name="date"> التاريخ </string>
+    <string name="users_who_attended"> المستخدمون الذين حضروا </string>
+    <string name="create_new"> إنشاء جديد </string>
+    <string name="create"> إنشاء </string>
+    <string name="update"> تحديث </string>
+    <string name="forget_password_link"> هل نسيت كلمة المرور؟ </string>
+    <string name="forget_password"> نسيت كلمة المرور </string>
+    <string name="call_record">سجل المكالمات</string>
+    <string name="login"> تسجيل الدخول </string>
+    <string name="get_code"> الحصول على الرمز </string>
+    <string name="don_t_have_an_account"> ليس لديك حساب؟ الاشتراك </string>
+    <string name="didnt_receive_code_Resend"> ألم تتلقَ الرمز؟ إعادة الإرسال </string>
+    <string name="create_one"> إنشاء واحد </string>
+    <string name="password"> كلمة المرور </string>
+    <string name="enter_old_pass"> أدخل كلمة المرور القديمة </string>
+    <string name="enter_new_pass"> أدخل كلمة مرور جديدة </string>
+    <string name="Confirm_password" tools:ignore="ExtraTranslation">تأكيد كلمة المرور</string>
+    <string name="dob">"تاريخ الولادة "</string>
+    <string name="age"> العمر </string>
+    <string name="wieght"> الوزن </string>
+    <string name="hieght"> الارتفاع </string>
+
+    <string name="biography"> السيرة الذاتية </string>
+    <string name="phone_number"> رقم الهاتف </string>
+    <string name="continue_"> متابعة </string>
+    <string name="email"> البريد الإلكتروني </string>
+    <string name="full_name"> الاسم الكامل </string>
+    <string name="email_address"> عنوان البريد الإلكتروني </string>
+    <string name="sign_up"> تسجيل </string>
+    <string name="done"> تم </string>
+    <string name="profile_setup"> إعداد الملف الشخصي </string>
+    <string name="update_trainer_profile"> تحديث ملف تعريف المدرب </string>
+
+    <string name="start_streaming"> بدء البث </string>
+    <string name="term"> لقد قرأت ووافقت على البنود  amp؛ الشروط وسياسة الخصوصية </string>
+    <string name="resend_code"> إعادة إرسال الرمز </string>
+    <string name="we_have_sent_you_an_email_containing"> لقد أرسلنا إليك بريدًا إلكترونيًا يحتوي على </string>
+    <string name="verification_code"> رمز التحقق </string>
+    <string name="verification"> التحقق </string>
+    <string name="and_instructions_please">والتعليمات من فضلك</string>
+    <string name="follow_the_instructions_to_verify_your_email_address"> اتبع الإرشادات للتحقق من عنوان بريدك الإلكتروني </string>
+    <string name="reset_password"> إعادة تعيين كلمة المرور </string>
+    <string name="update_password"> تحديث كلمة المرور </string>
+    <string name="edit_profile"> تحرير ملف التعريف </string>
+    <string name="reset"> إعادة تعيين </string>
+    <string name="select">"تحديد "</string>
+    <string name="course"> المقرر </string>
+    <string name="select_course"> حدد الدورة </string>
+    <string name="dashboard"> لوحة التحكم </string>
+    <string name="courses"> الدورات التدريبية </string>
+    <string name="search"> بحث </string>
+    <string name="forums"> المنتديات </string>
+    <string name="certificates"> الشهادات </string>
+    <string name="payment"> الدفع </string>
+    <string name="change_password"> تغيير كلمة المرور </string>
+    <string name="terms_amp_conditions">الشروط والظروف </string>
+    <string name="privacy_policy"> سياسة الخصوصية </string>
+    <string name="help_amp_feedback"> المساعدة والتعليقات </string>
+    <string name="logout"> تسجيل الخروج </string>
+    <string name="lorem">إذ كلا ونتج شعار العسكري, وجزر أمّا في غير. يعبأ الشهير مشاركة بل دنو. وتم ما جمعت أهّل أوسع. دنو دخول الأمريكية أي, وتم تحرير المتساقطة، هو, قد خيار تحرّك أفريقيا وقد. في دول فاتّبع أفريقيا سنغافورة.
+أي كلّ الجنوبي الدولارات, سابق مدينة فاتّبع قد هذه. يكن نقطة قائمة الشرقية قد, مما أن حقول تصرّف الدّفاع. الشرق، الجنرال كل وصل, قامت يتسنّى البولندي تلك مع. مرجع فكان جهة بـ, نفس لمحاكم الدولارات لم, بـ علاقة الخطّة وصل. أخذ كل وحتّى وحلفاؤها, أراض عسكرياً إذ بحث, حدى لعملة الحدود المتحدة تم.</string>
+    <string name="app_id"> AIzaSyBDQc1Qfa8vSvHI5by1Mhl_VFmZFeyNppU </string>
+    <string name="choice"> اختيار </string>
+    <string name="custom_error_password_not_equal"> كلمة المرور غير متطابقة </string>
+    <string name="custom_error_password_change_pass_not_equal"> كلمة المرور لا تطابق كلمة المرور الجديدة </string>
+    <string name="regexErrorMessage"> كلمة مرور غير صالحة. يجب ألا يقل طول كلمة المرور عن 8 أحرف </string>
+
+
+    <string name="congrats_your_acc.."> تهانينا ، لقد وصل حسابك
+تم الاشتراك بنجاح </string>
+
+
+    <string name="home"> الصفحة الرئيسية </string>
+
+    <string name="notes"> ملاحظات </string>
+    <string name="add_notes"> إضافة ملاحظات </string>
+
+    <string name="notifications"> الإخطارات </string>
+    <string name="notification"> الإعلام </string>
+    <string name="about_us"> نبذة عنا </string>
+    <string name="password_reset"> إعادة تعيين كلمة المرور </string>
+
+
+    <string name="live_stream"> البث المباشر </string>
+
+    <string name="live">تحدى لك</string>
+    <string name="event_name"> اسم الحدث </string>
+
+    <string name="events"> الأحداث </string>
+    <string name="events_details"> تفاصيل الأحداث </string>
+    <string name="request_received"> تم استلام الطلب </string>
+    <string name="previous_challenges"> التحديات السابقة </string>
+
+    <string name="last"> Last </string>
+    <string name="draw"> رسم </string>
+
+    <string name="friend_time"> وقت الصديق </string>
+    <string name="فchallenge_friend" tools:ignore="ExtraTranslation"> رفض التحدي </string>
+    <string name="stop">قف</string>
+    <string name="start"> ابدأ </string>
+    <string name="time"> الوقت </string>
+    <string name="exercise"> تمرين </string>
+    <string name="history"> المحفوظات </string>
+    <string name="see_all"> رؤية الكل </string>
+
+    <string name="view_all"> عرض الكل </string>
+
+
+    <string name="type_here"> اكتب هنا .... </string>
+    <string name="see_more"> مشاهدة المزيد </string>
+    <string name="Accept" tools:ignore="ExtraTranslation"> قبول </string>
+    <string name="reject"> رفض </string>
+    <string name="i_have_read.."> لقد قرأت وأوافق </string>
+    <string name="challenges"> التحديات </string>
+
+    <string name="image_cant_be_empty"> لا يمكن أن تكون الصورة فارغة </string>
+    <string name="video_cant_be_empty"> لا يمكن أن يكون الفيديو فارغًا </string>
+    <string name="password_must_be"> يجب أن تتكون كلمة المرور من 8 أحرف </string>
+    <string name="new_and_old_pass_must"> يجب ألا تكون كلمة المرور الجديدة والقديمة متطابقة </string>
+
+
+    <string name="training"> تدريب </string>
+    <string name="trainers"> المدربون </string>
+    <string name="friends"> الأصدقاء </string>
+    <string name="leader_board"> لوحة القيادة </string>
+    <string name="calendar"> التقويم </string>
+    <string name="settings"> الإعدادات </string>
+
+    <string name="reminder"> تذكير </string>
+
+
+    <string name="your_event_has_been_created"> حدثك به
+تم إنشاؤه </string>
+
+    <string name="friends_request"> طلب الأصدقاء </string>
+
+
+    <string name="experience"> الخبرة </string>
+    <string name="Bio"> السيرة الذاتية </string>
+    <string name="result"> النتيجة </string>
+    <string name="sent"> مرسل </string>
+    <string name="received"> المتلقاة </string>
+    <string name="send_request"> إرسال الطلب </string>
+
+    <string name="decline"> رفض </string>
+    <string name="request"> طلب </string>
+    <string name="search_"> بحث </string>
+    <string name="add_friends"> إضافة أصدقاء </string>
+
+    <string name="reward"> مكافأة </string>
+
+    <string name="profile"> الملف الشخصي </string>
+
+
+    <string name="inProgress"> قيد التقدم </string>
+    <string name="play_video"> تشغيل الفيديو </string>
+    <string name="upload_video"> تحميل الفيديو </string>
+    <string name="update_video"> تحديث الفيديو </string>
+
+    <string name="feed"> موجز </string>
+    <string name="my_challenges"> تحدياتي </string>
+    <string name="internetconnection"> لا يوجد اتصال بالإنترنت </string>
+
+    <string name="training_description"> اعرض خطط التدريب للتدريبات الخاصة بك. </string>
+    <string name="trainers_description"> تواصل مع مدربين مدربين تدريباً عالياً لترى
+عليهم العمل والحصول على التوجيه. </string>
+    <string name="friends_description"> تواصل مع أصدقائك لمشاركة ملفات
+التقدم وانظر لهم. </string>
+    <string name="leader_board_description"> شق طريقك في لوحة الصدارة إلى
+الفوز بدراجة بيلوتون. </string>
+    <string name="calendar_description"> خطط التدريبات الخاصة بك لتحقيق تناسق أفضل. </string>
+
+    <string name="mark_as_completed"> وضع علامة كمكتملة </string>
+
+    <string name="won">فاز</string>
+    <string name="lost">ضائع</string>
+    // langauges
+
+    <string name="english"> الإنجليزية </string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="goal">هدف</string>
+    <string name="invalidEmail">البريد الالكتروني مطلوب</string>
+    <string name="invalidName">مطلوب اسم</string>
+    <string name="invalidPhone">رقم الهاتف مطلوب</string>
+    <string name="invalidPass">كلمة المرور مطلوبة</string>
+    <string name="reward_points_won">ربح 50 نقطة من نقاط المكافآت!</string>
+    <string name="congratulations">تهانينا</string>
+    <string name="challenge_lost">خسر التحدي</string>
+    <string name="challenge_by_dennis">"فاز تحدي دنيس إليس "</string>
+    <string name="agreement">اتفاق</string>
+    <string name="challenge_description_">وصف التحدي</string>
+    <string name="challenged_won">فاز التحدي</string>
+    <string name="challenges_to_you">تحدى لك</string>
+    <string name="reward_50_points">المكافآت 50 نقطة</string>
+    <string name="challenge_a_friend">تحدى صديق</string>
+    <string name="challenge_friend">صديق التحدي</string>
+    <string name="reject_challenge_friend">رفض التحدي</string>
+    <string name="accept">قبول</string>
+    <string name="fields_cant_be_empty">لا يمكن أن يكون الحقل فارغًا</string>
+    <string name="invalid_email_format">تنسيق بريد إلكتروني غير صالح</string>
+    <string name="confirm_pass_doesnt_match">تأكيد كلمة المرور غير مطابق</string>
+    <string name="challenge">تحدي</string>
+    <string name="challenge_feed">الأعلاف التحديات</string>
+    <string name="rewards">المكافآت</string>
+    <string name="earn_rewards_points_to..">كسب نقاط المكافأة إلى أدخل السحب</string>
+    <string name="points">نقاط</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="invite_friend">ادعُ صديقًا</string>
+    <string name="challenge_description">تحدي أصدقائك مع المنافسة تمارين ومعرفة من يفوز.</string>
+    <string name="challenge_feed_description">انظر من تحدى من وصنف من</string>
+    <string name="rewards_description">فعلت ذلك بشكل أفضل.</string>
+    <string name="Please_accept_terms">الرجاء قبول الشروط ؛ السياسة أ</string>
+    <string name="invite_users">قم بدعوة المستخدمين</string>
+    <string name="join_event">الانضمام إلى الحدث</string>
+
+
+</resources>
